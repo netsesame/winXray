@@ -5,6 +5,23 @@
 [网络免费 clash 服务器订阅链接](https://proxypoolss.tk/clash/proxies?speed=100&type=vmess,trojan)   
 可复制上面各种格式订阅链接，在 winXray 中点击「批量导入链接」一键体验 winXray 强大的兼容性。
 
+请认准 winXray.exe 原版 v2.3.0 校验值   
+-----------------------------------------------  
+MD5:	FC4DA1FA5F915FAF107C248600CFEE4B  
+SHA1:	93D73CD90C0508972AAB600A88615B7C63CFF39C  
+SHA256:	A745FF902E3D3F4F325FB57D9DC37149A1A6694EAC75E33A0B69D7190AC3E3F5  
+CRC32:	B427ED49  
+各大主流杀毒软件检测安全，自行编译源码可得到完全相同的EXE。  
+编译工具如果版本不同可能生成的二进制文件校验值有变，现在各大杀毒软件只要一个字节变化都可能会误报病毒。  
+原版 winXray.exe 永久保持完全公益免费，不会插入任何推广链接。  
+
+
+关于支持 PAC 代理的说明：
+-----------------------------------------------  
+先说一下很多客户端 PAC 模式卡顿一直没解决，但 winXray 已经解决了这个问题并且丝滑般的流畅。
+在 winXray 中管理 PAC 名单非常的简洁方便，如果一个代理客户端 PAC 模式卡顿不稳定，编辑 PAC 麻烦困难，或者根本就不支持 PAC，这时候他们会说是因为 PAC 不好，这有多少可信度我就不多说了。请注意只有 PAC 能真正的直接支持高效安全的 SOCKS5 协议，否则就只能改为低版本 SOCKS 或者 HTTP 代理。PAC 与翻墙软件完全无关并完全独立，可以保证只有你指定的国外网站与翻墙软件发生关系。PAC 能避免一些敏感的软件不会在没经过你手动许可时悄悄流向翻墙软件，例如迅雷或 Telegram ，当然，某些拥有高超语言技巧的代理客户端他可能把这个描述为 PAC 的缺陷之一。另外启用 PAC 并不会影响大家使用 Xray-Core 自带的路由规则 - 这与 PAC 并没有任何的矛盾和冲突。  
+  
+
 # winXray 
 本软件源码已贡献到公共领域并放弃版权，源码可使用 [aardio（开发环境仅6.5MB）](http://www.aardio.com) 编译生成单文件绿色EXE( 不需要.Net等任何外部运行库 ），**[点这里下载](./../../raw/master/release/winXray.7z)** （ [64位版本](./../../raw/master/release/winXray.7z) / [32位版本](./../../raw/master/release/winXray32.7z) ），解压即可直接使用( 仅  **[5.0MB](./../../raw/master/release/winXray.7z)** - 已自带 Xray-core）。
 
